@@ -246,7 +246,7 @@ def get_info(platform, id):
             return {"status": 3, "msg": "未知平台"}
     except sqlite3.Error as e:
         logger.error(f"获取 {platform} 的绑定信息时发生错误: {e}")
-        return None
+        return {"status": -1, "msg": "绑定失败"}
 
 def bind(platform_A, platform_B, id_A, id_B):
     try:

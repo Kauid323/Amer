@@ -11,7 +11,7 @@ from amer_adapter.qq.handler import (
     handle_request as QQ_request_handler,
     handle_notice as QQ_notice_handler
 )
-from route import register_api_routes
+from route import register_api_routes, register_webui_routes
 
 if not os.path.exists(temp_folder):
     os.makedirs(temp_folder)
@@ -43,6 +43,7 @@ async def webhook():
     return jsonify({"status": "error"}), 400
 
 register_api_routes(app, qqBot)
+register_webui_routes(app, qqBot)
 # 服务器 , 启动!
 if __name__ == "__main__":
     logger.info(f"正在测试绑定相关内容")

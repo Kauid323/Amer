@@ -33,7 +33,26 @@ class BaseTools:
         except Exception as e:
             logger.error(f"获取用户昵称失败: {str(e)}")
             return user_id
+    async def get_group_name(self, platform, group_id):
+        """
+        根据平台类型获取群组名称。
 
+        :param platform: 平台类型，如 'qq' 或 'yh'
+        :param group_id: 群组ID
+        :return: 群组名称，如果获取失败则返回群组ID
+        """
+        try:
+            if platform.lower() == 'qq':
+                qqtools = QQTools()
+                return await qqtools.get_group_name(group_id)
+            elif platform.lower() == 'yh':
+                yhtools = YunhuTools()
+                return await yhtools.get_group_name(group_id)
+            else:
+                return group_id
+        except Exception as e:
+            logger.error(f"获取群组名称失败: {str(e)}")
+            return group_id
     async def get_messages_by_msgid(self, msg_id: str) -> list:
         """
         根据 msg_id 获取所有相关的消息。

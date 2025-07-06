@@ -132,11 +132,11 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
             group_ids = []
 
             # 定义处理逻辑
-            def handle_iomhvq(id_value):
+            def handle_uhorxv(id_value):
                 """处理绑定平台的选择"""
                 return "QQ" if id_value == "QQ" else "MC"
 
-            def handle_ifbygx(id_value):
+            def handle_zsvovb(id_value):
                 """处理输入的群组ID"""
                 if id_value is not None:
                     return [group_id.strip() for group_id in re.split(r'[,\，]', id_value) if group_id.strip()]
@@ -147,17 +147,17 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
             for from_info in from_infos.values():
                 id = from_info.get('id')
                 id_value = from_info.get('value', from_info.get('selectValue'))
-                valid_setting_ids = ['iomhvq', 'ifbygx']
+                valid_setting_ids = ['uhorxv', 'zsvovb']
 
                 if id not in valid_setting_ids:
                     logger.error(f"无效的设置ID: {id}")
                     return
 
                 # 根据id选择处理逻辑
-                if id == "iomhvq":
-                    selected_platform = handle_iomhvq(id_value)
-                elif id == "ifbygx":
-                    group_ids = handle_ifbygx(id_value)
+                if id == "uhorxv":
+                    selected_platform = handle_uhorxv(id_value)
+                elif id == "zsvovb":
+                    group_ids = handle_zsvovb(id_value)
 
             # 处理绑定逻辑
             if not selected_platform:
@@ -226,11 +226,11 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
                     jb_switch_status = True
                     return False
 
-            def handle_nfadxy(id_value):
+            def handle_rwrkjc(id_value):
                 """处理解绑平台的选择"""
                 return "QQ" if id_value == "QQ" else "MC"
 
-            def handle_ubzlvu(id_value):
+            def handle_ecjnni(id_value):
                 """处理输入的群组ID"""
                 if id_value is not None:
                     return [group_id.strip() for group_id in re.split(r'[,\，]', id_value) if group_id.strip()]
@@ -241,7 +241,7 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
             for from_info in from_infos.values():
                 id = from_info.get('id')
                 id_value = from_info.get('value', from_info.get('selectValue'))
-                valid_setting_ids = ['yvybln', 'nfadxy', 'ubzlvu']
+                valid_setting_ids = ['yvybln', 'rwrkjc', 'ecjnni']
 
                 if id not in valid_setting_ids:
                     logger.error(f"无效的设置ID: {id}")
@@ -251,10 +251,10 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
                 if id == "yvybln":
                     if handle_yvybln(id_value):
                         break  # 解绑全部后直接退出
-                elif id == "nfadxy":
-                    selected_platform = handle_nfadxy(id_value)
-                elif id == "ubzlvu":
-                    group_ids = handle_ubzlvu(id_value)
+                elif id == "rwrkjc":
+                    selected_platform = handle_rwrkjc(id_value)
+                elif id == "ecjnni":
+                    group_ids = handle_ecjnni(id_value)
 
             # 处理解绑逻辑
             if not jb_switch_status and selected_platform:
@@ -280,7 +280,7 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
             group_ids = []
 
             # 定义处理逻辑
-            def handle_vadtwo(id_value):
+            def handle_hhftjs(id_value):
                 """处理全局同步状态的选择"""
                 sync_type = id_value
                 if id_value == "全同步":
@@ -299,11 +299,11 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
                     logger.error(f"无效的同步类型: {id_value}")
                     return None, None
 
-            def handle_ewgmdw(id_value):
+            def handle_nmojfm(id_value):
                 """处理平台选择"""
                 return "QQ" if id_value == "QQ" else "MC"
 
-            def handle_plylap(id_value):
+            def handle_ajgwlf(id_value):
                 """处理输入的ID"""
                 if id_value is not None:
                     return [group_id.strip() for group_id in re.split(r'[,\，]', id_value) if group_id.strip()]
@@ -316,19 +316,19 @@ async def handle_instruction_message(message_data: MessageManager.YunhuMessageDa
             for from_info in from_infos.values():
                 id = from_info.get('id')
                 id_value = from_info.get('value', from_info.get('selectValue'))
-                valid_setting_ids = ['vadtwo', 'ewgmdw', 'plylap']
+                valid_setting_ids = ['hhftjs', 'nmojfm', 'ajgwlf']
 
                 if id not in valid_setting_ids:
                     logger.error(f"无效的设置ID: {id}")
                     return
 
                 # 根据id选择处理逻辑
-                if id == "vadtwo":
-                    sync_data, sync_type = handle_vadtwo(id_value)
-                elif id == "ewgmdw":
-                    selected_platform = handle_ewgmdw(id_value)
-                elif id == "plylap":
-                    group_ids = handle_plylap(id_value)
+                if id == "hhftjs":
+                    sync_data, sync_type = handle_hhftjs(id_value)
+                elif id == "nmojfm":
+                    selected_platform = handle_nmojfm(id_value)
+                elif id == "ajgwlf":
+                    group_ids = handle_ajgwlf(id_value)
 
             # 处理同步逻辑
             if sync_data is None:

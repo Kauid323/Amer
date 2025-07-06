@@ -258,7 +258,7 @@ async def handle_command(message_data: MessageManager.QQMessageData, qqBot, type
         command = message_data.raw_message
     logger.info(f"处理命令: {command}")
     async def check_group_admin_permission():
-        if message_data.sender_user_id == 2694611137:
+        if message_data.sender_user_id == 241638640:
             return True
         if not await qqtools.is_group_admin_or_owner(message_data.group_id, message_data.sender_user_id):
             await qqBot.send_group_msg(

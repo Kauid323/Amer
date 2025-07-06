@@ -58,7 +58,7 @@ py Amer存放目录\Amer-main\utils\sqlite\initialize_yh_bind_db.py
 
 把消息订阅内的 普通消息事件 和 指令消息事件 打开，这样就可以使用你的Amer了
 
-- 这是最基础的消息转发功能，其实还能在config.py里面设置openai，实现QQ Amer AI对话（（（（（（（（（（（（（（
+> 这是最基础的消息转发功能，其实还能在config.py里面设置openai，实现QQ Amer AI对话（（（（（（（（（（（（（（
 
 
  

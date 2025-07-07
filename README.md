@@ -1,4 +1,4 @@
-Amer是一个QQ与云湖消息互通的机器人，使用Onebot V11协议，使用反向Websocket
+Amer是一个QQ与云湖消息互通的机器人，使用Onebot V11协议和反向Websocket
 
 # 食用方法：
 

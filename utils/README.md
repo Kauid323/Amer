@@ -14,7 +14,7 @@ blocked_words ：屏蔽词
 
 OpenAI ：AI对话配置
 
-Redis ：Redis数据库连接地址及一些配置，你可以换成别人的或是你自己的，不过配置要对
+Redis ：Redis数据库连接地址及一些配置，你可以换成别人的或是你自己的，不过配置要写对
 
 SQLite ：SQL数据库路径，最好不要动
 

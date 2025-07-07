@@ -3,7 +3,7 @@ Amer是一个QQ，云湖互通的机器人，使用Onebot V11协议，使用反�
 # 食用方法：
 
 ## 安装依赖
-在Amer目录开启命令行，然后键入 
+开启命令行，然后键入 
 
 pip install uvicorn redis openai requests aiocqhttp aiohttp markdown Pillow captcha
 

@@ -21,7 +21,7 @@ token 处填写你云湖机器人的token
 
 写完了就保存
 ## 安装Redis数据库
-安装Redis数据库，地址端口不动
+安装Redis数据库，地址端口不动，并启动它
 
 [Redis下载](https://redis.io/downloads/)
 

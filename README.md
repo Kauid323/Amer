@@ -7,7 +7,7 @@ Amer是一个QQ，云湖互通的机器人，使用Onebot V11协议，使用反�
 
 pip install uvicorn redis openai requests aiocqhttp aiohttp markdown Pillow captcha
 
-回车，然后等待安装完成
+回车，然后等待依赖安装完成
 ## 配置
 打开 Amer目录/utils/config.py 
 

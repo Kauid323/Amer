@@ -2,7 +2,7 @@
 
 admin_user_id ：机器人主人的QQ号
 
-temp_folde ：缓存目录
+temp_folder ：AI缓存目录
 
 server ：服务器开启地址
 

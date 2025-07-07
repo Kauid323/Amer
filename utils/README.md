@@ -1,4 +1,4 @@
-config.py 内配置的解释
+## config.py 内配置的解释：
 
 admin_user_id ：机器人主人的QQ号
 

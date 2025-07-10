@@ -14,7 +14,10 @@
 在"同步模式"这个自定义输入指令里面分别创建"选择器",“单选框","输入框"",照着下面填（显示效果是这样的）
 ![image](https://github.com/user-attachments/assets/2b534fb7-84af-470f-9224-a87775d2cf58)
 
-然后打开  存放Amer的目录\Amer-main\amer_adapter\yunhu\handler.py
+### 3.打开  存放Amer的目录\Amer-main\amer_adapter\yunhu\handler.py
+找到第146行，这个146-161行是处理绑定指令的玩意
+
+给这个 valid_setting_ids 里面的 uhorxv zsvovb 分别换上
 
 
 
@@ -33,6 +36,4 @@
 
 
 
-
-打开  存放Amer的目录\Amer-main\amer_adapter\yunhu\handler.py
 

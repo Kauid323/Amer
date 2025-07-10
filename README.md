@@ -61,4 +61,6 @@ py Amer存放目录\Amer-main\utils\sqlite\initialize_yh_bind_db.py
 > 这是最基础的消息转发功能，其实还能在config.py里面设置openai，实现QQ Amer AI对话（（（（（（（（（（（（（（
 
 # [配置云湖机器人的指令](amer_adapter/README.md)
+
+# [对Config.py内配置的一些解释](utils/README.md)
  

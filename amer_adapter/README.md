@@ -8,6 +8,12 @@
 2.在”绑定“这个自定义输入指令里面分别创建”单选框“和”输入框",照着下面填（显示效果是这样的）
 ![image](https://github.com/user-attachments/assets/94324cf4-5b70-4157-9839-8130efe4b678)
 
+在"解绑"这个自定义输入指令里面分别创建”单选框“和”输入框",照着下面填（显示效果是这样的）
+![image](https://github.com/user-attachments/assets/4788690c-bb5d-40fd-b3a2-c08ed822ec46)
+
+在"同步模式"这个自定义输入指令里面分别创建"选择器",“单选框","输入框"",照着下面填（显示效果是这样的）
+![image](https://github.com/user-attachments/assets/2b534fb7-84af-470f-9224-a87775d2cf58)
+
 
 
 

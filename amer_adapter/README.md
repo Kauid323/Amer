@@ -20,6 +20,7 @@
 给这个 valid_setting_ids 里面的 uhorxv zsvovb 分别换上云湖控制台这个”绑定“指令的单选框和输入框的表单ID
 ![image](https://github.com/user-attachments/assets/ec1ba17b-ae63-42e0-8fca-4130fa4f3442)
 > 下面的 uhorxv zsvovb 更换方法同理
+> 
 > (建议使用Ctrl+H把原来的全替换成你自己的表单ID（（（（（（（（（（
 
 

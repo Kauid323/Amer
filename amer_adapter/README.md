@@ -14,6 +14,7 @@
 在"同步模式"这个自定义输入指令里面分别创建"选择器",“单选框","输入框"",照着下面填（显示效果是这样的）
 ![image](https://github.com/user-attachments/assets/2b534fb7-84af-470f-9224-a87775d2cf58)
 
+然后打开  存放Amer的目录\Amer-main\amer_adapter\yunhu\handler.py
 
 
 

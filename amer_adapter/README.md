@@ -27,8 +27,13 @@
 ![image](https://github.com/user-attachments/assets/89afdce3-1799-4df4-bc8b-65a7b2692890)
 > 这个"yvybln"可能是关于一键解绑的指令，有兴趣可以自己研究一下
 > 由于电脑配置的环境极佳，我就不再折腾了😂
+> 建议使用Ctrl+H把原来的全替换成你自己的表单ID
 
+翻到第313行，这里的第313-332行是处理同步模式指令的地方，跟换绑定这部分也是同理
+![image](https://github.com/user-attachments/assets/33973502-31c2-4c1e-97a9-d23072f10463)
+> 建议使用Ctrl+H把原来的全替换成你自己的表单ID
 
+## 弄完之后保存，就OK了
 
 
 

@@ -28,7 +28,7 @@ token 处填写你云湖机器人的token
 ## 配置Onebot
 使用支持Onebot V11协议的服务端进行配置，比如
 
-[Napcat (推荐)](https://github.com/NapNeko/NapCatQQ)，[NoneBot](https://github.com/nonebot/adapter-onebot)等，这里以Napcat为例
+[Napcat (推荐)](https://github.com/NapNeko/NapCatQQ)等，这里以Napcat为例
 
 登入Napcat后台（记得登录你事先准备的QQ机器人账号！），进入网络配置选项，新建一个Websocket客户端，名称随便填，
 

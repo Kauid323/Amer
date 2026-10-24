@@ -1,3 +1,5 @@
+> New Amer(without AI):https://github.com/Kauid323/AmerGo
+
 Amer是一个QQ与云湖消息互通的机器人，使用Onebot V11协议和反向Websocket
 
 # 食用方法：
